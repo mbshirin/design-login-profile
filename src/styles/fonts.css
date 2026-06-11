@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'Peyda';
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url('@assets/peyda/Peyda/PeydaWeb/woff2/peydaWeb-light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Peyda';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('@assets/peyda/Peyda/PeydaWeb/woff2/PeydaWeb-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Peyda';
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url('@assets/peyda/Peyda/PeydaWeb/woff2/PeydaWeb-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Peyda';
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url('@assets/peyda/Peyda/PeydaWeb/woff2/PeydaWeb-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Peyda';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url('@assets/peyda/Peyda/PeydaWeb/woff2/PeydaWeb-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Peyda';
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  src: url('@assets/peyda/Peyda/PeydaWeb/woff2/PeydaWeb-ExtraBold.woff2') format('woff2');
+}
+
+/* Modam — عنوان لوگو */
+@font-face {
+  font-family: 'Modam';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url('@assets/Modam/Modam-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Modam';
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  src: url('@assets/Modam/Modam-ExtraBold.ttf') format('truetype');
+}
+
+.header,
+.footer {
+  font-family: 'Peyda', Tahoma, sans-serif;
+}
+
+.header .logo-title,
+.footer .logo-title {
+  font-family: 'Modam', 'Peyda', Tahoma, sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.header .logo-tagline {
+  font-weight: 300;
+}
+
+.footer .logo-tagline {
+  font-weight: 300;
+}
