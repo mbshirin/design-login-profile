@@ -57,13 +57,6 @@
       />
     </div>
 
-    <!-- <div
-      v-if="isScrolled"
-      class="nav-placeholder"
-      :style="{ height: `${navBarHeight}px` }"
-      aria-hidden="true"
-    /> -->
-
     <div
       ref="navBarRef"
       class="nav-bar w-full bg-blue-900 menubar-z"
